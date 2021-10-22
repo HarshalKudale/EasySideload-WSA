@@ -25,3 +25,7 @@ Click apply ok
 
 Now everytime you open apk file it will be installed.
 please open issue if there is any problem.
+
+Update  1.0.1.5
+
+Now works with drag and drop, and open with context menu.
