@@ -1,7 +1,8 @@
 # EasySideload-WSA
 
 #Updated files
-Now you dont need to donwload platform-tools
+**Now you dont need to donwload platform-tools**
+~~Donwload platform tools from here - https://developer.android.com/studio/releases/platform-tools ~~
 
 Download the zip and extract it anywhere.
 
