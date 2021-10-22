@@ -35,3 +35,12 @@ please open issue if there is any problem.
 Update  1.0.1.5
 
 Now works with drag and drop, and open with context menu.
+# Development
+
+Some things to consider for the future:
+  - [] Currently ADB is an executable as a part of your distribution. It's not exactly kosher and should be replaced with on-line acquisition of ABD. Otherwise, Google might flag your repo
+  - [] Go installer is rather basic, but works ad desired. Some TLC required
+
+I've added go installer wrapper to installer.bat. If you want to do any changes in the installer itself, use `build.bat` script to re-build the application.
+
+After go builds the app, I'm using https://github.com/akavel/rsrc to embed the Windows manifest to the EXE file, so Windows would treat it as an app that should be run under admin privileges. 
