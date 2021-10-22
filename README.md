@@ -1,7 +1,7 @@
 # EasySideload-WSA
 
-Updated files
-##Now you dont need to donwload platform-tools
+#Updated files
+Now you dont need to donwload platform-tools
 
 Download the zip and extract it anywhere.
 
