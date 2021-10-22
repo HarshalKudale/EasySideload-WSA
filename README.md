@@ -17,4 +17,4 @@ Now locate and select the installer.exe file in extracted folder.
 
 Click apply ok
 
-Now everytime you open APk file it will be installed.
+Now everytime you open apk file it will be installed.
