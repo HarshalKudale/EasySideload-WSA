@@ -6,6 +6,12 @@ VirusTotal -https://www.virustotal.com/gui/file/1cf7787e20fe858385ea3d76dfa27ef5
 #Updated files
 **Now you dont need to donwload platform-tools**
 
+Functionalities -
+1. APK installer
+2. File transfer to WSA
+3. One clcik WSA settings.
+
+# Tutorial
 
 ~~Donwload platform tools from here - https://developer.android.com/studio/releases/platform-tools~~
 
