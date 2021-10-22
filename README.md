@@ -1,6 +1,8 @@
 # EasySideload-WSA
 Note-- Some antiviruses may give false-positive you can convert bat to exe yourself if you dont trust my installer.exe
+
 VirusTotal -https://www.virustotal.com/gui/file/1cf7787e20fe858385ea3d76dfa27ef531139db79d04ecba80bd45dc8ac1f133/detection
+
 #Updated files
 **Now you dont need to donwload platform-tools**
 
