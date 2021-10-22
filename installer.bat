@@ -1,9 +1,22 @@
 @ECHO OFF
+REM BFCPEICONINDEX=1
+REM BFCPEEMBEDDISPLAY=0
+REM BFCPEEMBEDDELETE=1
+REM BFCPEADMINEXE=0
+REM BFCPEINVISEXE=0
+REM BFCPEVERINCLUDE=1
+REM BFCPEVERVERSION=1.0.1.5
+REM BFCPEVERPRODUCT=Apk Installer
+REM BFCPEVERDESC=Install Apk for windows
+REM BFCPEVERCOMPANY=CodeWrath
+REM BFCPEOPTIONEND
+@ECHO ON
+@echo off
 
-cd %~dp0\
+cd /d %~dp0
 adb connect 127.0.0.1:58526 
 adb install %1
 
 
 ::By Harshal Kudale
-::https://github.com/HarshalKudale/EasySideload-WSA 
+::https://github.com/HarshalKudale/EasySideload-WSA
