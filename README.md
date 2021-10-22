@@ -1,25 +1,17 @@
 # EasySideload-WSA
 
-Turn on developer mode on in WSA. WSA should be on in order to adb script to work.
-![image](https://user-images.githubusercontent.com/54770218/138224577-a58fc54a-e723-4ab7-9d1e-7a136b540c10.png)
+Updated files
+##Now you dont need to donwload platform-tools
 
-Download ADB and platform-tools from here -> https://developer.android.com/studio/releases/platform-tools
+Download the zip and extract it anywhere.
+![image](https://user-images.githubusercontent.com/54770218/138446621-14623bff-da43-40c3-a5e0-bfe502d45288.png)
 
+Go to apk file's properties, and click on change.
+![image](https://user-images.githubusercontent.com/54770218/138446994-04d3832f-bc07-4b97-b28b-83d080aaa30b.png)
 
-Put the file with same same directory as platform-tools like below.
-![image](https://user-images.githubusercontent.com/54770218/138224228-5fe20aa6-c64e-43a7-a03c-714fcca5b2ec.png)
+Now locate and select the installer.exe file in extracted folder.
+![image](https://user-images.githubusercontent.com/54770218/138447153-6ecc2e7c-a0cc-4fe4-8940-368103cd0d96.png)
 
-To install apps just put them in same directory and then drag and drop on installer.
-![image](https://user-images.githubusercontent.com/54770218/138224403-cc047fed-0ea9-498f-8298-54797f5d6410.png)
+Click apply ok
 
-App will be installed.
-
-To Push files to WSA
-Drag and drop files to pushToDroid.bat 
-
-Thanx to loboly-19 for changes
-
-reference - https://github.com/loboly-19/EasyPush-WSA/
-
-
-![image](https://user-images.githubusercontent.com/54770218/138307936-ca6b8d1b-fa58-4047-9617-add461a3945c.png)
+Now everytime you open APk file it will be installed.
