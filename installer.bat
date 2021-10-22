@@ -1,8 +1,11 @@
+@ECHO OFF
+
 @echo off
 
-cd %~dp0\platform-tools\
+cd %~dp0\
 adb connect 127.0.0.1:58526 
 adb install %1
 
-:: By Harshal
-:: https://github.com/HarshalKudale/EasySideload-WSA
+
+::By Harshal Kudale
+::https://github.com/HarshalKudale/EasySideload-WSA
