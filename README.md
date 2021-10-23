@@ -1,10 +1,9 @@
 # EasySideload-WSA
 
-Exe files are broken use bat files till exe are fixed
+Exe files are officially removed due to lot of issue( will be back once I manage to fix them)
+Also now you can run fixer.bat(one time) if other 3 bat files give you error.
 
-Note-- Some antiviruses may give false-positive you can convert bat to exe yourself if you dont trust my installer.exe
-
-VirusTotal -https://www.virustotal.com/gui/file/1cf7787e20fe858385ea3d76dfa27ef531139db79d04ecba80bd45dc8ac1f133/detection
+Note - Always keep fixer.bat,adb.exe and AdbWinApi.dll in same folder.
 
 #Updated files
 **Now you dont need to donwload platform-tools**
@@ -16,25 +15,14 @@ Functionalities -
 
 # Tutorial
 
-~~Donwload platform tools from here - https://developer.android.com/studio/releases/platform-tools~~
 
 Download the zip and extract it anywhere.
 
-![image](https://user-images.githubusercontent.com/54770218/138447370-b7e06a95-90bf-4996-baeb-0ba20a40a408.png)
+Run fixer.bat for first time use
 
-Go to apk file's properties, and click on change.
+Open apk file using installer.bat(right click open with) to install(or just drag and drop apk on bat file)
 
-![image](https://user-images.githubusercontent.com/54770218/138446994-04d3832f-bc07-4b97-b28b-83d080aaa30b.png)
+Open any file using pushtoWSA.bat(right click open with) to transfer to WSA downloads folder(or just drag and drop any file on bat file)
 
-Now locate and select the installer.exe file in extracted folder.
+Open WSAsettings.bat file to open WSA settings.
 
-![image](https://user-images.githubusercontent.com/54770218/138447153-6ecc2e7c-a0cc-4fe4-8940-368103cd0d96.png)
-
-Click apply ok
-
-Now everytime you open apk file it will be installed.
-please open issue if there is any problem.
-
-Update  1.0.1.5
-
-Now works with drag and drop, and open with context menu.
