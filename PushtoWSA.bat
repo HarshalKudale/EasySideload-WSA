@@ -1,9 +1,15 @@
 @echo off
+set "package=%1"
 
-cd /d %~dp0
-adb connect 127.0.0.1:58526 
-adb push %1 ./storage/emulated/0/Download
+if exist %appdata%\adb\ (
+%appdata%\adb\adb connect 127.0.0.1:58526 
+%appdata%\adb\adb push %1 ./storage/emulated/0/Download
+EXIT /B
+) else (
+echo Run fixer.bat to fix error
+pause
+)
 
 
-:: From https://github.com/loboly-19/EasyPush-WSA
-:: Drag and drop file on this bat file to push them to download folder of android subsystem for linux.
+::By Harshal Kudale
+::https://github.com/HarshalKudale/EasySideload-WSA

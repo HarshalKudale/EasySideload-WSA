@@ -1,8 +1,14 @@
 @echo off
+set "package=%1"
 
-cd /d %~dp0
-adb connect 127.0.0.1:58526 
-adb install %1
+if exist %appdata%\adb\ (
+%appdata%\adb\adb connect 127.0.0.1:58526 
+%appdata%\adb\adb install %package%
+EXIT /B
+) else (
+echo Run fixer.bat to fix error
+pause
+)
 
 
 ::By Harshal Kudale
