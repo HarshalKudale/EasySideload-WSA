@@ -1,3 +1,5 @@
+[![Github All Releases](https://img.shields.io/github/downloads/HarshalKudale/EasySideload-WSA/total.svg)]()
+
 # EasySideload-WSA
 
 Exe files are officially removed due to lot of issue( will be back once I manage to fix them)
