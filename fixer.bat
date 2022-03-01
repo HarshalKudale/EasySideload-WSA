@@ -1,5 +1,5 @@
 @echo off
 
-md %appdata%\adb
-xcopy /s  "%~dp0\adb.exe" %appdata%\adb\
-xcopy /s  "%~dp0\AdbWinApi.dll" %appdata%\adb\
+md C:\Users\%username%\AppData\Roaming\adb
+xcopy /s  "%~dp0\adb.exe" C:\Users\%username%\AppData\Roaming\adb\
+xcopy /s  "%~dp0\AdbWinApi.dll" C:\Users\%username%\AppData\Roaming\adb\
